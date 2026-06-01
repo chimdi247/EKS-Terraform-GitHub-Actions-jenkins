@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Git Pulling') {
             steps {
-                git branch: 'master', url: 'https://github.com/chimdi247/EKS-Terraform-GitHub-Actions.git'
+                git branch: 'master', url: 'https://github.com/chimdi247/EKS-Terraform-GitHub-Actions-jenkins.git'
             }
         }
         stage('Init') {
