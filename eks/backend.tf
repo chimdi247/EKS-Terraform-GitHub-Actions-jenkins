@@ -7,7 +7,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "dev-chimdi-tf-bucket"
+    bucket         = "chimdi-tf-bucket"
     region         = "eu-west-2"
     key            = "eks/terraform.tfstate"
     encrypt        = true
